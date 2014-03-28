@@ -1,0 +1,63 @@
+<!doctype html>
+<html ng-app="opowerAssignment">
+<head>
+
+	<script src="js/jquery.js?v=1.10.2"></script>
+	<script src="js/angular.js?v=1.2.13"></script>
+
+	<script src="js/ng-animate.js?v=1.2.13"></script>
+	<script src="js/ng-sanitize.js"></script>
+	<script src="js/ng-energysavings-controller.js"></script>
+
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+	<!-- <link href="css/lib.animate.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/lib.font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="wrapper">
+
+	<header>
+		<div class="lasso">
+			<h1 class="logo"></h1>
+		</div>
+	</header>
+
+	<section id="content" ng-controller="energySavingsCtrl">
+		<div class="lasso">
+
+			<section class="widget" ng-view>
+				<header>
+					<h1><i class="fa fa-thumbs-up"></i>Last month, you saved enough energy to {{ _c(0) }}!</h1>
+				</header>
+				<aside class="summary">
+					<div class="progress this-year" data-label="Jan 2014">
+						<div class="bar empty"></div>
+					</div>
+					<div class="progress last-year" data-label="Jan 2013">
+						<div class="bar empty"></div>
+					</div>
+					<span>Great job! You used <span class="counter-used">573 kWH</span> last month, compared to <span class="counter-used">791 kWh</span> in the same month last year. The resulting savings is enough to offset the energy consumption of <em class="counter-saved">{{ _c(1) }}</em> for one month.</span>
+				</aside>
+
+				<ul class="switcher">
+					<li><button ng-click="setType(0)" ng-class="{active: activeType==0}">Cars</button></li>
+					<li><button ng-click="setType(1)" ng-class="{active: activeType==1}">Trees</button></li>
+					<li><button ng-click="setType(2)" ng-class="{active: activeType==2}">CO<sub>2</sub></button></li>
+				</ul>
+
+				<ul class="badges badges-{{types[activeType].name}}">
+					<li class="animate" ng-repeat="i in toArray(removed) track by $index"></li>
+					<li class="used animate" ng-repeat="i in toArray(used) track by $index"></li>
+				</ul>
+
+				<aside class="blurb blurb-outlet"><h2>Keep up the great work!</h2>At this rate, you'll <em class="counter-saved">{{ _c(2) }}</em> by the end of the year.</aside>
+			</section>
+
+		</div>
+	</section>
+
+</div>
+</body>
+</html>

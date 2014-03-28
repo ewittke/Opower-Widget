@@ -1,0 +1,660 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"islay",
+				"islayScotch_modal"
+			],
+			[
+				"serif",
+				"serifFontFamily"
+			],
+			[
+				"widget",
+				"widgetBaseColor1"
+			],
+			[
+				"contentSid",
+				"contentSidePadding_mini"
+			],
+			[
+				"progres",
+				"progress-container"
+			],
+			[
+				"qex",
+				"qexperience2"
+			],
+			[
+				"header",
+				"headerBottomMargin"
+			],
+			[
+				"content",
+				"contentSidePadding"
+			],
+			[
+				"breakpoint",
+				"breakpoint_large"
+			],
+			[
+				"brea",
+				"breakpoint_small"
+			],
+			[
+				"signin",
+				"signin_remember"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"pane_",
+				"panes_container"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"sansFont",
+				"sansFontFamilyCond"
+			],
+			[
+				"sansFon",
+				"sansFontFamily"
+			],
+			[
+				"skill",
+				"skill_comparison_icon"
+			],
+			[
+				"courses",
+				"courses_icon"
+			],
+			[
+				"q_panel",
+				"q_panel_hoverable"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"impor",
+				"import_form"
+			],
+			[
+				"no-",
+				"no-touch"
+			],
+			[
+				"qdefault",
+				"qdefault3"
+			],
+			[
+				"pane",
+				"pane_scroller"
+			],
+			[
+				"national",
+				"national_selected"
+			],
+			[
+				"q_pane",
+				"q_panel_controls"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"wizard",
+				"wizard_all_history_scroller"
+			],
+			[
+				"details",
+				"details_btn_container"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.htm",
+			"settings":
+			{
+				"buffer_size": 1167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ng-sanitize.js",
+			"settings":
+			{
+				"buffer_size": 15403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "default.css",
+			"settings":
+			{
+				"buffer_size": 6288,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/eric/Dropbox/Product Revamps/Opower Assignment/font-awesome.min.css",
+		"/Users/eric/Dropbox/Product Revamps/Opower Assignment/ng-energysavings-controller.js",
+		"/Users/eric/Dropbox/Product Revamps/Opower Assignment/animate.css",
+		"/Users/Assiago/Projects/Product Revamps/Jawbone UP/index.htm",
+		"/Users/Assiago/Dropbox/Career/EricWittke.com/baythreepointoh/css/default.css",
+		"/Users/Assiago/Dropbox/Career/EricWittke.com/baythreepointoh/index.htm",
+		"/Users/Assiago/Desktop/default.css",
+		"/Users/Assiago/Dropbox/Career/EricWittke.com/baythreepointoh/js/app.js",
+		"/Users/Assiago/Dropbox/Career/EricWittke.com/baythreepointoh/development to-do.txt",
+		"/Users/Assiago/Dropbox/Coding Templates/TEMPLATE - jQuery Plugin",
+		"/Users/Assiago/Dropbox/Coding Templates/TEMPLATE – Bookmarklet (jQuery).js",
+		"/Users/Assiago/Dropbox/Personal Brand & Career Materials/EricWittke.com/baythreepointoh/js/jquery.videoBG.js",
+		"/Users/Assiago/Dropbox/Personal Brand & Career Materials/EricWittke.com/baythreepointoh/js/jquery.simplemodal.1.4.4.min.js",
+		"/Users/Assiago/Dropbox/Personal Brand & Career Materials/EricWittke.com/baythreepointoh/timthumb.php",
+		"/Users/Assiago/Dropbox/Personal Brand & Career Materials/EricWittke.com/baythreepointoh/development to-do.txt",
+		"/Users/Assiago/Downloads/jquery.videoBG-master/assets/script.js",
+		"/Users/Assiago/Downloads/jquery.videoBG-master/demo_bg.html",
+		"/Users/Assiago/Documents/Processing/libraries/G4P/library.properties",
+		"/Users/Assiago/Dropbox/Personal Brand & Career Materials/EricWittke.com/baythreepointoh/EricWittke 3.0 SFBIG.sublime-project",
+		"/Users/Assiago/Projects/Personal Brand & Career Materials/EricWittke.com/3.0 SFBIG/js/app.js",
+		"/Users/Assiago/Downloads/basic/js/basic.js",
+		"/Users/Assiago/Downloads/basic/index.html",
+		"/Users/Assiago/Documents/Axure/Prototypes/Qualified/antique-prototypes/A Note for the Curious.htm",
+		"/Users/Assiago/Documents/Axure/Prototypes/Qualified/profile/Qualified Profile 2013-10-25a.rp",
+		"/Users/Assiago/Desktop/index.html",
+		"/Users/Assiago/Projects/Personal Brand & Career Materials/EricWittke.com/3.0 SFBIG/index.htm",
+		"/Users/Assiago/Desktop/index.php",
+		"/Users/Assiago/Desktop/a.htaccess",
+		"/Users/Assiago/Desktop/Mnemonics Practice.html",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/footer.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/content-single.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/content.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/functions.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/index.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_mixins.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/style.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_variables.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/page-home.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/page.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/content-page.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sidebar.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_nav.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_controls.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_articles.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_content.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_scaffolding.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/header.php",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/untitled.sublime-project",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_facebook-feed.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/_article.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/style.css",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/css/config.rb",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/print.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/sass/ie.scss",
+		"/Users/Assiago/Projects/BGVC/Website/6.0 - Princess Leia/config.rb",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_qicons.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_sprites.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_ratings.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/profile.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/profile.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/profile.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/index.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/apps/frontend/templates/layout.php",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/nav.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_type.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/courses.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_buttons.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/pages/static.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/onboarding-progress.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/chart.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/register.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/register.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_scaffolding.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_progress.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/courses.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/news.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/jobs.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/job.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/jobs.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/libraries/font-awesome.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_forms.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/qualified.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/login.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/login.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/login.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/about.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/for-educators.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/for-employers.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/jobs.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/contact.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/views/widgets/profile-summary.js",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/profile-summary.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/page-heading.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/onboarding-progress.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/header.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/views/pages/index.js",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/controllers/pages/index.js",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_popovers.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/profile-documentation.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/qualifications.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_tables.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/qualifications.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/edit-experience.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/news.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/footer.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_mixins.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/pages/guest.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_responsive-utilities.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_component-animations.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_progress-bars.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/experience.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/welcome.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/pw_reset.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/widgets/market.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/experience.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/terms.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/privacy.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/contact.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_dropdowns.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/_navs.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/widgets/news.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/password-reset.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/sass/pages/home.scss",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/logout.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/dashboard.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/views/pages/goal.js",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/goal.html",
+		"/Users/Assiago/Projects/Kaplan/Development/SkillsPass/sf_skillspass/web/js/app/templates/pages/goals.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"index.htm",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scroll",
+			"grey",
+			"greysca",
+			"header h2",
+			"vermeer figure",
+			"case-studies a:ho",
+			"#simplemodal-container article figure img",
+			"close",
+			"550",
+			"simplemodal-close",
+			"fadein",
+			"rgba",
+			"animation",
+			"transition",
+			"strong",
+			"animation",
+			"li:before",
+			"ul",
+			"container header",
+			"fixed",
+			"fix",
+			"max-width:",
+			"zoom",
+			"img",
+			"@media",
+			"			<div class=\"separator\"><i class=\"fa fa-square\"></i></div>",
+			"’",
+			"p ",
+			"p",
+			"p ",
+			"zoom",
+			"icon-",
+			"i {",
+			"class=\"info\">",
+			"28px",
+			"primary",
+			"tagline",
+			"Icons-",
+			"hr",
+			"article-bott",
+			"article-bottom",
+			"line-height",
+			"h2",
+			"font-face",
+			"Caudex",
+			"url(\"im",
+			"url(im",
+			"url(",
+			"(max-width:",
+			"alignright",
+			"h3",
+			"h2",
+			"font-weight",
+			"shares",
+			"share",
+			"first-child",
+			":before",
+			":after",
+			"ellips",
+			"font-family",
+			"goal",
+			"news",
+			"font-weight",
+			"+ a",
+			"font-weight",
+			"check",
+			"spinner",
+			"load",
+			"height: 100",
+			"height:100",
+			"105",
+			"font-size",
+			"page-heading",
+			".header",
+			".hide",
+			".table",
+			"border-radius",
+			"spin",
+			"anim",
+			"animat",
+			"animate",
+			"rotate",
+			"transparent",
+			"+ a",
+			"h1",
+			"qblue",
+			"focus",
+			"invalid",
+			"inputborder",
+			"dotted",
+			"border-right",
+			"box-shadow",
+			"display:block",
+			"span",
+			"1px dotted #e7e6e6",
+			"background-color:",
+			".active",
+			"h1",
+			"border-top",
+			":after",
+			":before",
+			"animation",
+			"form ",
+			"form,",
+			"form",
+			"font-size: 10px",
+			"font-size : 10px",
+			"font-size :10px",
+			"font-size:10px",
+			"font-size: 10px",
+			"font-size : 10px",
+			"font-size:10px",
+			"font-size: 10px",
+			" 10px",
+			"10px",
+			"label",
+			"login-wrapper",
+			"page.stat",
+			"*",
+			"footer",
+			"icon-cog",
+			"page-heading",
+			"sys",
+			"text-scale",
+			"3.3",
+			"font-size",
+			".5rem",
+			".main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"url(\"/im",
+			"url(/im",
+			"(min-width:",
+			"@include text-scale",
+			"min-width: $breakpoint_small",
+			"min-width: $breakpoint_stretch",
+			"min-width: $breakpoint_large",
+			"min-width: $breakpoint_small",
+			"min-width: $breakpoint_medium",
+			"$breakpoint_small",
+			"$breakpoint_medium",
+			"$breakpoint_large",
+			"$breakpoint_medium",
+			"$breakpoint_small",
+			"$breakpoint_medium",
+			"$breakpoint_large",
+			"$breakpoint_stretch",
+			"breakpoint_stretch",
+			"1205",
+			"1210",
+			"1200",
+			"contentSidePadding",
+			"contentSidePadding_mini",
+			"contentSidePadding",
+			"contentSidePadding_mini",
+			"contentSidePadding",
+			"contentSidePadding_mini",
+			"320",
+			"\"/fonts",
+			"panel"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.htm",
+					"settings":
+					{
+						"buffer_size": 1167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ng-sanitize.js",
+					"settings":
+					{
+						"buffer_size": 15403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15403,
+								15403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "default.css",
+					"settings":
+					{
+						"buffer_size": 6288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"EricWittke 3.0 SFBIG.sublime-project"
+			],
+			[
+				".modal",
+				"sf_skillspass/web/.sass-cache/306679c448e18585cebfbec59a012978a333eb65/_modals.scssc"
+			],
+			[
+				"scaffol",
+				"sf_skillspass/web/sass/_scaffolding.scss"
+			],
+			[
+				"page.j",
+				"sf_skillspass/web/js/qualified.page.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true
+}

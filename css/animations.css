@@ -1,0 +1,64 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– VARIABLES –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– ANIMATIONS ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 8, ../sass/animations.scss */
+.badges.badges-cars .ng-leave.ng-leave-active,
+.badges.badges-cars .ng-enter {
+  opacity: 0;
+}
+/* line 12, ../sass/animations.scss */
+.badges.badges-cars .ng-enter.ng-enter-active,
+.badges.badges-cars .ng-leave {
+  opacity: 1;
+}
+/* line 16, ../sass/animations.scss */
+.badges.badges-cars .ng-enter,
+.badges.badges-cars .ng-leave {
+  -webkit-transition: 0.5s ease-out all;
+  transition: 0.5s ease-out all;
+  transition: 0.5s cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  position: relative;
+}
+/* line 24, ../sass/animations.scss */
+.badges.badges-cars .ng-enter-stagger,
+.badges.badges-cars .ng-leave-stagger {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* line 32, ../sass/animations.scss */
+.badges.badges-cars .ng-leave.ng-leave-active,
+.badges.badges-cars .ng-enter {
+  left: -150px;
+}
+/* line 37, ../sass/animations.scss */
+.badges.badges-cars .ng-enter.ng-enter-active,
+.badges.badges-cars .ng-leave {
+  left: 0;
+}
+
+@keyframes fadein {
+  /* line 44, ../sass/animations.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 45, ../sass/animations.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* line 48, ../sass/animations.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 49, ../sass/animations.scss */
+  to {
+    opacity: 1;
+  }
+}

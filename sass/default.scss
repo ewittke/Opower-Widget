@@ -1,0 +1,213 @@
+@import 'variables';
+@import 'components';
+@import 'animations';
+
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.1s;
+	-webkit-transition: all $speed_fadeIn;
+}
+
+html {
+	font-size: 12pt;
+	line-height: 22pt;
+}
+
+body {
+	font-family: $fontface;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 1em;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+	background-color: $background;
+	color: $fontcolor_base;
+
+	@media screen and (max-width: 560px) {
+		font-size: 0.9em;
+		line-height: 1.4em;
+	}
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– INTERFACE –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#wrapper {
+	width: 100%;
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+
+	& > header {
+		margin: 80px 30px 30px 30px;
+		overflow: visible;
+
+		@media screen and (max-width: $w_max) {
+			margin-top: 60px;
+		}
+		@media screen and (max-width: $bp_2) {
+			margin: 20px;
+		}
+	}
+	& > header h1 {
+		background: transparent url(../img/header-logo.svg) no-repeat top left;
+		background-size: 75%;
+		height: 24px;
+		font: 0/0 a;
+		color: transparent;
+		text-shadow: none;
+		background-color: transparent;
+		border: 0;
+		margin: 16px 10px;
+		padding: 0;
+		width: 184px;
+		transition: none;
+		
+		&:hover {
+			background-position: bottom left;
+		}
+	}
+}
+
+#content {
+
+	h1 {
+		color: $o_blue2;
+		font-size: 2rem;
+		line-height: 2.8rem;
+		font-weight: 500;
+		padding: 0 40px 0 60px;
+		position: relative;
+
+		@media screen and (max-width: $bp_3) {
+			padding: 0;
+			font-size: 1.8rem;
+			line-height: 2.2rem;
+		}
+		@media screen and (max-width: $bp_2) {
+			font-size: 1.2rem;
+			line-height: 1.6rem;
+		}
+
+		.fa {
+			position: absolute;
+			top: 5px;
+			left: 0;
+			color: inherit;
+			opacity: 0.5;
+			font-size: 3rem;
+
+			@media screen and (max-width: $bp_3) {
+				display: none;
+			}
+		}
+	}
+
+	.summary{
+		background: $o_blue1;
+		color: $white;
+		padding: 20px;
+		padding-right: 220px;
+		margin-top: 30px;
+		position: relative;
+		border-radius: 10px;
+		@media screen and (max-width: $bp_4) {
+			padding-right: 180px;
+		}
+		@media screen and (max-width: $bp_2) {
+			padding-right: 20px;
+			margin-top: 10px;
+		}
+
+		@media screen and (max-width: $bp_3) {
+			margin-left: -20px;
+			margin-right: -20px;
+			border-radius: 0;
+		}
+
+		em {
+		    display: inline-block;
+		    padding: 0px 8px;
+		    background: $white;
+		    border-radius: 3px;
+			margin: 0 2px;
+			line-height: 1.6rem;
+			
+			@media screen and (max-width: $bp_3) {
+				line-height: 1.4rem;
+			}
+			@media screen and (max-width: $bp_1) {
+				padding: 0 8px;
+			}
+		}
+
+		& > span {
+		    display: inline-block;
+		}
+
+		& > span + span {
+			padding-left: 20px;
+
+			@media screen and (max-width: $bp_4) {
+				padding-left: 0;
+				padding-top: 15px;
+				display: block;
+			}
+		}
+	}
+	.counter-used {
+	    font-weight: 500;
+	    /*color: lighten($o_orange, 40%);*/
+	}
+	.counter-saved {
+	    font-weight: 500;
+	    color: $o_green;
+	}
+
+	.switcher {
+		width: 70%;
+		margin: 10px auto 0 auto;
+		display: table;
+		text-align: center;
+		border: 0;
+		background: transparent;
+		color: #333;
+
+		li {
+			display: table-cell;
+			width: 33%;
+
+			button {
+				font-family: $fontface;
+				width: 100%;
+				display: block;
+				border: 0;
+				background: transparent;
+				color: #999;
+				margin-bottom: 0;
+				font-size: 1.4rem;
+				line-height: 1.4rem;
+				padding: 10px 5px;
+				cursor: pointer;
+				border-radius: 10px;
+
+				&:focus {
+					outline: none;
+				}
+
+				@media screen and (max-width: $bp_2) {
+					font-size: 1rem;
+					line-height: 1rem;
+					padding: 5px;
+				}
+
+				&.active {
+					background: $o_grey1;
+					color: $o_blue2;
+				}
+			}
+		}
+	}
+}

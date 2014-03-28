@@ -1,0 +1,670 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– VARIABLES –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– VARIABLES –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– BASE COMPONENTS –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 6, ../sass/components.scss */
+a {
+  text-decoration: none;
+  color: #0081c3;
+  font-weight: 200;
+}
+/* line 11, ../sass/components.scss */
+a:hover {
+  color: #00a3f6;
+}
+
+/* line 16, ../sass/components.scss */
+em {
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* line 21, ../sass/components.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 25, ../sass/components.scss */
+.nbsp-full {
+  display: inline;
+}
+@media screen and (min-width: 759px) {
+  /* line 25, ../sass/components.scss */
+  .nbsp-full {
+    display: inline-block;
+  }
+}
+
+/* line 33, ../sass/components.scss */
+.lasso {
+  width: 100%;
+  max-width: 960px;
+  min-width: 320px;
+  overflow: visible;
+  margin: 0 auto;
+}
+/* line 40, ../sass/components.scss */
+#content > .lasso {
+  border-bottom-radius: 5px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  padding: 30px 50px 70px 50px;
+  border-top: 3px solid #0081c3;
+  background: #fff;
+}
+@media screen and (min-width: 960px) {
+  /* line 40, ../sass/components.scss */
+  #content > .lasso {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 40, ../sass/components.scss */
+  #content > .lasso {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  /* line 40, ../sass/components.scss */
+  #content > .lasso {
+    border-radius: 0;
+    box-shadow: none;
+    border-top-width: 5px;
+  }
+}
+
+/* line 62, ../sass/components.scss */
+.badges {
+  margin: 0;
+}
+/* line 65, ../sass/components.scss */
+.badges > li {
+  transition: none;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  margin-right: 4%;
+}
+/* line 96, ../sass/components.scss */
+.badges.badges-cars {
+  margin: 40px 20px 20px 40px;
+}
+@media screen and (max-width: 760px) {
+  /* line 96, ../sass/components.scss */
+  .badges.badges-cars {
+    margin: 40px 0px 20px 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 96, ../sass/components.scss */
+  .badges.badges-cars {
+    margin: 20px 20px 20px 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* line 96, ../sass/components.scss */
+  .badges.badges-cars {
+    margin: 20px 0px 20px 20px;
+  }
+}
+/* line 81, ../sass/components.scss */
+.badges.badges-cars > li {
+  background-image: url("../img/car.svg");
+  width: 20%;
+  height: 92px;
+}
+/* line 86, ../sass/components.scss */
+.badges.badges-cars > li.used {
+  background-image: url("../img/car-used.svg");
+}
+@media screen and (max-width: 760px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-cars > li {
+    height: 73.6px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-cars > li {
+    height: 64.4px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-cars > li {
+    height: 36.8px;
+  }
+}
+/* line 97, ../sass/components.scss */
+.badges.badges-trees {
+  margin: 40px 20px 20px 40px;
+}
+@media screen and (max-width: 760px) {
+  /* line 97, ../sass/components.scss */
+  .badges.badges-trees {
+    margin: 40px 0px 20px 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 97, ../sass/components.scss */
+  .badges.badges-trees {
+    margin: 20px 20px 20px 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* line 97, ../sass/components.scss */
+  .badges.badges-trees {
+    margin: 20px 0px 20px 20px;
+  }
+}
+/* line 81, ../sass/components.scss */
+.badges.badges-trees > li {
+  background-image: url("../img/tree.svg");
+  width: 7%;
+  height: 70px;
+}
+/* line 86, ../sass/components.scss */
+.badges.badges-trees > li.used {
+  background-image: url("../img/tree-used.svg");
+}
+@media screen and (max-width: 760px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-trees > li {
+    height: 56px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-trees > li {
+    height: 49px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-trees > li {
+    height: 28px;
+  }
+}
+/* line 98, ../sass/components.scss */
+.badges.badges-co2 {
+  margin: 40px 20px 20px 40px;
+}
+@media screen and (max-width: 760px) {
+  /* line 98, ../sass/components.scss */
+  .badges.badges-co2 {
+    margin: 40px 0px 20px 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 98, ../sass/components.scss */
+  .badges.badges-co2 {
+    margin: 20px 20px 20px 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* line 98, ../sass/components.scss */
+  .badges.badges-co2 {
+    margin: 20px 0px 20px 20px;
+  }
+}
+/* line 81, ../sass/components.scss */
+.badges.badges-co2 > li {
+  background-image: url("../img/co2.svg");
+  width: 7%;
+  height: 40px;
+}
+/* line 86, ../sass/components.scss */
+.badges.badges-co2 > li.used {
+  background-image: url("../img/co2-used.svg");
+}
+@media screen and (max-width: 760px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-co2 > li {
+    height: 32px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-co2 > li {
+    height: 28px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 81, ../sass/components.scss */
+  .badges.badges-co2 > li {
+    height: 16px;
+  }
+}
+
+/* line 101, ../sass/components.scss */
+.progress {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  width: 65px;
+  height: 140px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.4);
+  border: 9px solid rgba(255, 255, 255, 0.9);
+  background-clip: padding-box;
+  border-radius: 100%/25px;
+}
+@media screen and (max-width: 460px) {
+  /* line 101, ../sass/components.scss */
+  .progress {
+    display: none;
+  }
+}
+/* line 117, ../sass/components.scss */
+.progress:after {
+  content: attr(data-label);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  bottom: 0.5rem;
+  left: 35px;
+  width: 46px;
+  position: absolute;
+  margin-left: -35px;
+  text-align: center;
+  display: block;
+  text-shadow: 1px 0 2px rgba(0, 0, 0, 0.4);
+}
+/* line 131, ../sass/components.scss */
+.progress .bar {
+  border-radius: 100%/15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  top: auto;
+  transition: all 1.5s ease-out;
+}
+/* line 140, ../sass/components.scss */
+.progress .bar.empty {
+  height: 14px !important;
+}
+/* line 144, ../sass/components.scss */
+.progress .bar:after {
+  content: "";
+  position: absolute;
+  border-radius: 250px/50px;
+  background: rgba(255, 255, 255, 0.4);
+  height: 12px;
+  width: 100%;
+}
+/* line 155, ../sass/components.scss */
+.progress.this-year .bar {
+  background: #fc7e03;
+  height: 82px;
+}
+/* line 159, ../sass/components.scss */
+.progress.this-year:after {
+  font-weight: 500;
+}
+/* line 163, ../sass/components.scss */
+.progress.last-year {
+  right: 90px;
+}
+/* line 165, ../sass/components.scss */
+.progress.last-year .bar {
+  background: #fc7e03;
+  height: 122px;
+}
+/* line 169, ../sass/components.scss */
+.progress.last-year:after {
+  opacity: 0.7;
+}
+
+/* line 175, ../sass/components.scss */
+.blurb {
+  padding: 20px 10px 20px 120px;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  display: block;
+  color: #666;
+  vertical-align: middle;
+  background-color: #fafafa;
+  width: 100%;
+  border-radius: 10px;
+  text-shadow: 1px 0 2px white;
+}
+@media screen and (max-width: 460px) {
+  /* line 175, ../sass/components.scss */
+  .blurb {
+    padding-left: 90px;
+    background-size: 50px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+/* line 195, ../sass/components.scss */
+.blurb h2 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  color: #333333;
+}
+@media screen and (max-width: 560px) {
+  /* line 195, ../sass/components.scss */
+  .blurb h2 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+/* line 207, ../sass/components.scss */
+.blurb.blurb-outlet {
+  background-image: url("../img/blurb-outlet.svg");
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– VARIABLES –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– ANIMATIONS ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 8, ../sass/animations.scss */
+.badges.badges-cars .ng-leave.ng-leave-active,
+.badges.badges-cars .ng-enter {
+  opacity: 0;
+}
+/* line 12, ../sass/animations.scss */
+.badges.badges-cars .ng-enter.ng-enter-active,
+.badges.badges-cars .ng-leave {
+  opacity: 1;
+}
+/* line 16, ../sass/animations.scss */
+.badges.badges-cars .ng-enter,
+.badges.badges-cars .ng-leave {
+  -webkit-transition: 0.5s ease-out all;
+  transition: 0.5s ease-out all;
+  transition: 0.5s cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  position: relative;
+}
+/* line 24, ../sass/animations.scss */
+.badges.badges-cars .ng-enter-stagger,
+.badges.badges-cars .ng-leave-stagger {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* line 32, ../sass/animations.scss */
+.badges.badges-cars .ng-leave.ng-leave-active,
+.badges.badges-cars .ng-enter {
+  left: -150px;
+}
+/* line 37, ../sass/animations.scss */
+.badges.badges-cars .ng-enter.ng-enter-active,
+.badges.badges-cars .ng-leave {
+  left: 0;
+}
+
+@keyframes fadein {
+  /* line 44, ../sass/animations.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 45, ../sass/animations.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* line 48, ../sass/animations.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 49, ../sass/animations.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 5, ../sass/default.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+/* line 13, ../sass/default.scss */
+html {
+  font-size: 12pt;
+  line-height: 22pt;
+}
+
+/* line 18, ../sass/default.scss */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333333;
+}
+@media screen and (max-width: 560px) {
+  /* line 18, ../sass/default.scss */
+  body {
+    font-size: 0.9em;
+    line-height: 1.4em;
+  }
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –– INTERFACE –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 38, ../sass/default.scss */
+#wrapper {
+  width: 100%;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+/* line 43, ../sass/default.scss */
+#wrapper > header {
+  margin: 80px 30px 30px 30px;
+  overflow: visible;
+}
+@media screen and (max-width: 960px) {
+  /* line 43, ../sass/default.scss */
+  #wrapper > header {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 43, ../sass/default.scss */
+  #wrapper > header {
+    margin: 20px;
+  }
+}
+/* line 54, ../sass/default.scss */
+#wrapper > header h1 {
+  background: transparent url(../img/header-logo.svg) no-repeat top left;
+  background-size: 75%;
+  height: 24px;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  margin: 16px 10px;
+  padding: 0;
+  width: 184px;
+  transition: none;
+}
+/* line 68, ../sass/default.scss */
+#wrapper > header h1:hover {
+  background-position: bottom left;
+}
+
+/* line 76, ../sass/default.scss */
+#content h1 {
+  color: #0081c3;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  padding: 0 40px 0 60px;
+  position: relative;
+}
+@media screen and (max-width: 560px) {
+  /* line 76, ../sass/default.scss */
+  #content h1 {
+    padding: 0;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 76, ../sass/default.scss */
+  #content h1 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+/* line 94, ../sass/default.scss */
+#content h1 .fa {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  color: inherit;
+  opacity: 0.5;
+  font-size: 3rem;
+}
+@media screen and (max-width: 560px) {
+  /* line 94, ../sass/default.scss */
+  #content h1 .fa {
+    display: none;
+  }
+}
+/* line 108, ../sass/default.scss */
+#content .summary {
+  background: #2781c6;
+  color: white;
+  padding: 20px;
+  padding-right: 220px;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 10px;
+}
+@media screen and (max-width: 760px) {
+  /* line 108, ../sass/default.scss */
+  #content .summary {
+    padding-right: 180px;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 108, ../sass/default.scss */
+  #content .summary {
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 108, ../sass/default.scss */
+  #content .summary {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0;
+  }
+}
+/* line 130, ../sass/default.scss */
+#content .summary em {
+  display: inline-block;
+  padding: 0px 8px;
+  background: white;
+  border-radius: 3px;
+  margin: 0 2px;
+  line-height: 1.6rem;
+}
+@media screen and (max-width: 560px) {
+  /* line 130, ../sass/default.scss */
+  #content .summary em {
+    line-height: 1.4rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  /* line 130, ../sass/default.scss */
+  #content .summary em {
+    padding: 0 8px;
+  }
+}
+/* line 146, ../sass/default.scss */
+#content .summary > span {
+  display: inline-block;
+}
+/* line 150, ../sass/default.scss */
+#content .summary > span + span {
+  padding-left: 20px;
+}
+@media screen and (max-width: 760px) {
+  /* line 150, ../sass/default.scss */
+  #content .summary > span + span {
+    padding-left: 0;
+    padding-top: 15px;
+    display: block;
+  }
+}
+/* line 160, ../sass/default.scss */
+#content .counter-used {
+  font-weight: 500;
+  /*color: lighten($o_orange, 40%);*/
+}
+/* line 164, ../sass/default.scss */
+#content .counter-saved {
+  font-weight: 500;
+  color: #8ebe38;
+}
+/* line 169, ../sass/default.scss */
+#content .switcher {
+  width: 70%;
+  margin: 10px auto 0 auto;
+  display: table;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  color: #333;
+}
+/* line 178, ../sass/default.scss */
+#content .switcher li {
+  display: table-cell;
+  width: 33%;
+}
+/* line 182, ../sass/default.scss */
+#content .switcher li button {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 100%;
+  display: block;
+  border: 0;
+  background: transparent;
+  color: #999;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* line 196, ../sass/default.scss */
+#content .switcher li button:focus {
+  outline: none;
+}
+@media screen and (max-width: 460px) {
+  /* line 182, ../sass/default.scss */
+  #content .switcher li button {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 5px;
+  }
+}
+/* line 206, ../sass/default.scss */
+#content .switcher li button.active {
+  background: #fafafa;
+  color: #0081c3;
+}
